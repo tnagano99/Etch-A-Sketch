@@ -1,0 +1,37 @@
+#grid-container {
+    display: grid;
+    float: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 40em;
+    height: 40em;
+    border: 2px solid black;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: seagreen;
+    text-shadow: 2px 2px 5px grey;
+}
+
+#options, #title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.option {
+    background-color: lightsteelblue;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+.option:hover {
+    background-color: steelblue;
+    border: 2px solid black;
+}
+
+body {
+    background-color: rgb(151, 157, 211);
+}
